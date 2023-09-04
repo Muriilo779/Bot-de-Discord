@@ -27,5 +27,8 @@ client.on("message",(msg)=>{
       msg.reply("Boa tarde, como é que foi seu dia?")
     } }
 });
+const guild = guild.id
+const member = guild.members;
+if(entry['time']){};
 client.login(process.env.BOTTOKEN); // logando o bot
 
